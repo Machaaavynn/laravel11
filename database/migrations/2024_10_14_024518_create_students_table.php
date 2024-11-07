@@ -11,7 +11,6 @@ return new class extends Migration
      */
     public function up(): void
     {
-       // Migrasi untuk tabel 'students'
        Schema::create('students', function (Blueprint $table) {
         $table->id();
         $table->string('name');
